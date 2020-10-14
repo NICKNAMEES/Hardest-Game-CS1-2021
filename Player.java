@@ -24,6 +24,7 @@ private final Color COLOR = Color.RED;
      
     }
 public void draw (Graphics g) {
+   g.drawLine(x, y, x, y);
     g.setColor(COLOR);
     g.drawRect(x, y, WIDTH, HEIGHT);
  g.fillRect(x, y, WIDTH, HEIGHT);
